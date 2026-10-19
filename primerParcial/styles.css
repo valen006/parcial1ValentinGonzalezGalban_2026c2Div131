@@ -1,0 +1,116 @@
+:root {
+    --color-primario: darkslateblue;
+    --color-gris-oscuro: #dddddd;
+    --color-gris-claro: #fbfbfb;
+    --color-secundario: #f0eefb;
+
+
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 8px;
+    font-size: 0.95rem;
+    color: var(--color-primario);
+}
+
+main {
+    padding: 0 26px;
+
+}
+main h2{
+    margin: 0;
+    padding: 8px;
+    border-bottom: 1px solid var(--color-gris-oscuro);
+    margin: 14px 0 12px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    cursor: pointer;
+}
+
+
+footer {
+
+    text-align: center;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 26px;
+}
+
+.laterales {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.filtros {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 22px;
+}
+
+.filtros label{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.botones{
+    display: flex;
+    gap: 4px;
+
+}
+
+.radio{
+    accent-color: var(--color-primario);
+    width: 18px;
+    height: 18px;
+    margin: 0;
+
+}
+
+.botones button{
+    height: 40px;
+    padding: 0 12px;
+    background: #fff;
+    color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+    font-family: inherit;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#buscador {
+    width: 40%;
+    min-width: 220px;
+    height: 36px;
+    margin-top: -2px;
+    padding: 0 10px;
+    border: 1px solid var(--color-gris-oscuro);
+    font-size: 0.95rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}

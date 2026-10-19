@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 1 - Lista de usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Parcial 1 - Div131 </h1>
+    </header>
+    <main>
+        <h2 id="titulo-users">Users</h2>
+        <section class="control">
+            <div class="laterales">
+                <div class="filtros">
+                    <label><input type="radio" class="radio" name="estado" value="Active">Active</label>
+                    <label><input type="radio" class="radio" name="estado" value="Inactive">Inactive</label>
+                    <label><input type="radio" class="radio" name="estado" value="All">All</label>
+                </div>
+
+                <div class="botones">
+                    <button type="button">Create</button>
+                    <button type="button">Deactivate</button>
+                    <button type="button">Reset pasword</button>
+                </div>
+                
+            </div>
+
+        
+            <input type="search" id="buscador" placeholder="Search Users">
+        </section>
+        <div id="users-container"></div>
+    </main>
+
+    <footer><p>Valentin Gonzalez Galban</p></footer>
+    <script src="index.js"></script>
+</body>
+</html>
